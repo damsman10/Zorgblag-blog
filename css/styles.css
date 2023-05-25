@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightheader {
+    margin-left: 1.1rem;
+}
+.rightheader p {
+    margin-top: -22px;
+}
+.rightheader h1 {
+    color: #DA0090;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+nav ul {
+    border-top: 2px solid #DA0090;
+    border-bottom: 2px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5rem 1rem
+}
+nav ul li a {
+    color: black;
+    display: block;
+}
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.article1 img {
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.article2 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.article2 img {
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+footer p {
+    margin-bottom: 1rem;
+    
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li {
+    list-style-type: none;
+    margin: 0 1rem 0 -0.8rem;
+}
+.body-body {
+    margin: auto;
+    width: 50%;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
